@@ -3,6 +3,7 @@ Changes
 LICENSE
 META.json
 README.md
+author/leak.pl
 cpanfile
 lib/Module/Spy.pm
 minil.toml
