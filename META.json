@@ -1,0 +1,87 @@
+{
+   "abstract" : "Spy for Perl5",
+   "author" : [
+      "Tokuhiro Matsuno <tokuhirom@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.11.0",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Module-Spy",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Scalar::Util" : "0",
+            "parent" : "0",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "provides" : {
+      "Module::Spy" : {
+         "file" : "lib/Module/Spy.pm",
+         "version" : "0.01"
+      },
+      "Module::Spy::Base" : {
+         "file" : "lib/Module/Spy.pm"
+      },
+      "Module::Spy::Class" : {
+         "file" : "lib/Module/Spy.pm"
+      },
+      "Module::Spy::Object" : {
+         "file" : "lib/Module/Spy.pm"
+      },
+      "Module::Spy::Sub" : {
+         "file" : "lib/Module/Spy.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Module-Spy/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Module-Spy",
+      "repository" : {
+         "url" : "git://github.com/tokuhirom/Module-Spy.git",
+         "web" : "https://github.com/tokuhirom/Module-Spy"
+      }
+   },
+   "version" : "0.01"
+}
