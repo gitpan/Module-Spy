@@ -28,7 +28,7 @@ no_index:
 provides:
   Module::Spy:
     file: lib/Module/Spy.pm
-    version: 0.02
+    version: 0.03
   Module::Spy::Base:
     file: lib/Module/Spy.pm
   Module::Spy::Class:
@@ -45,4 +45,4 @@ resources:
   bugtracker: https://github.com/tokuhirom/Module-Spy/issues
   homepage: https://github.com/tokuhirom/Module-Spy
   repository: git://github.com/tokuhirom/Module-Spy.git
-version: 0.02
+version: 0.03

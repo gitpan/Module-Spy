@@ -9,5 +9,6 @@ lib/Module/Spy.pm
 minil.toml
 t/00_compile.t
 t/01_simple.t
+t/02_calls.t
 META.yml
 MANIFEST

@@ -57,7 +57,7 @@
    "provides" : {
       "Module::Spy" : {
          "file" : "lib/Module/Spy.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "Module::Spy::Base" : {
          "file" : "lib/Module/Spy.pm"
@@ -83,5 +83,5 @@
          "web" : "https://github.com/tokuhirom/Module-Spy"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
